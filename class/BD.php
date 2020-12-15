@@ -6,7 +6,7 @@ class RestoBD
   function Resto()
   {}
 
-  function conecta()
+  function conecta()//
   {
     $this->conexion = mysqli_connect("localhost","erick","11dpr2474d","resto");
   }
